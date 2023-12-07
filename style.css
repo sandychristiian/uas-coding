@@ -1,0 +1,99 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .feature {
+    margin-bottom: 40px;
+  }
+
+  .feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .feature h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+
+  .feature p {
+    color: #666;
+  }
+
+  .testimonials {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .testimonial {
+    margin-bottom: 40px;
+  }
+
+  .testimonial img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial p {
+    color: #666;
+  }
+
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .contact form button {
+    background-color: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
