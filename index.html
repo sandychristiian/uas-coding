@@ -1,154 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Singkamas Dimsum</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  <link rel="stylesheet" href="style.css">
 
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      background-color: #f8f8f8;
-      color: #333;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
 
-    header {
-      background-color: #fff;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    header h1 {
-      color: #333;
-      font-size: 2em;
-      margin-bottom: 10px;
-    }
-
-    .features {
-      padding: 50px 0;
-      text-align: center;
-    }
-
-    .feature {
-      margin-bottom: 40px;
-    }
-
-    .feature img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .feature h2 {
-      margin-top: 20px;
-      font-size: 1.5em;
-    }
-
-    .feature p {
-      color: #666;
-    }
-
-    .testimonials {
-      background-color: #fff;
-      padding: 50px 0;
-      text-align: center;
-    }
-
-    .testimonial {
-      margin-bottom: 40px;
-    }
-
-    .testimonial img {
-      border-radius: 50%;
-      max-width: 100px;
-      margin-bottom: 20px;
-    }
-
-    .testimonial p {
-      color: #666;
-    }
-
-    .contact {
-      padding: 50px 0;
-      text-align: center;
-    }
-
-    .contact form {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .contact form input,
-    .contact form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .contact form button {
-      background-color: #e8491d;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>Singkamas Dimsum</h1>
-    <p>Kelezatan Dimsum ala Singkamas untuk Anda</p>
+ 
+  <header class="header-with-logo">
+    <div class="logo-container">
+      <h1>Singkamas Dimsum</h1>
+      <p>Kelezatan Dimsum ala Singkamas untuk Anda</p>
+      <img src="logo.jpeg" alt="Singkamas Logo" class="logo">
+      <div class="logo-text">
+      
+      </div>
+    </div>
   </header>
 
-  <!-- Features Section -->
+  
   <section class="features">
     <div class="feature">
-      <img src="feature1.jpg" alt="Dimsum Variety">
-      <h2>Ragam Dimsum</h2>
-      <p>Nikmati berbagai pilihan dimsum dengan cita rasa autentik.</p>
+      <h3>Beragam Dimsum</h3>
+      <p>Nikmati berbagai pilihan dimsum dengan cita rasa autentik Indonesia.</p>
+      <div class="feature-image">
+        <img src="feature1.jpg" alt="Dimsum Variety">
+      </div>
+      
+      
     </div>
 
     <div class="feature">
-      <img src="feature2.jpg" alt="Fast Delivery">
-      <h2>Pengiriman Cepat</h2>
+      <h3>Pengiriman Cepat</h3>
       <p>Pesan sekarang dan nikmati dimsum favorit Anda tanpa menunggu lama.</p>
+      <div class="feature-image">
+        <img src="feature2.jpg" alt="Fast Delivery">
+      </div>
+      
+      
     </div>
 
     <div class="feature">
-      <img src="feature3.jpg" alt="Quality Ingredients">
-      <h2>Bahan Berkualitas</h2>
+
+      <h3>Bahan Berkualitas</h3>
       <p>Kami menggunakan bahan-bahan terbaik untuk memastikan rasa yang sempurna.</p>
+      <div class="feature-image">
+        <img src="feature3.jpg" alt="Quality Ingredients">
+      </div>
+      
     </div>
   </section>
 
-  <!-- Testimonials Section -->
+
+  
   <section class="testimonials">
+    <h2>Apa Kata Mereka?</h2>
     <div class="testimonial">
       <img src="testimonial1.jpg" alt="Customer 1">
       <p>"Dimsum di Singkamas luar biasa! Saya sangat puas dengan pelayanannya."</p>
-      <p>- Sarah, Pelanggan Setia</p>
+      <p>- John, Pelanggan Setia</p>
     </div>
 
     <div class="testimonial">
       <img src="testimonial2.jpg" alt="Customer 2">
       <p>"Rasa dimsumnya enak dan pilihan menunya banyak. Saya pasti akan kembali!"</p>
-      <p>- John, Pelanggan Tetap</p>
+      <p>- Haji Slamet, Pelanggan Tetap</p>
     </div>
   </section>
 
-  <!-- Contact Section -->
+
+  <section class="founders">
+    <h2>Meet Our Founders</h2>
+    <div class="founder">
+      <img src="founder 1.jpeg" alt="Founder 1">
+      <p>Muhammad Tegar Setya</p>
+    </div>
+
+    <div class="founder">
+      <img src="founder 2.jpeg" alt="Founder 2">
+      <p>Sandy Christian</p>
+    </div>
+
+    <div class="founder">
+      <img src="founder 3.jpeg" alt="Founder 3">
+      <p>Nicholas Brandon</p>
+    </div>
+
+    <div class="founder">
+      <img src="founder 4.jpeg" alt="Founder 4">
+      <p>Yayang Rinjani</p>
+    </div>
+  </section>
+
+ 
   <section class="contact">
     <h2>Hubungi Kami</h2>
     <p>Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau pesanan khusus.</p>
